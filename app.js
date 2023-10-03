@@ -126,5 +126,7 @@ function alarta(){
     swal("Order Complete!", "you have successfully purchase !", "success")
     const cartlist = document.getElementById('list')
     cartlist.innerHTML = ''
-    
+
+    const total_price = document.getElementById('total_price')
+    total_price.innerText='00'
 }
