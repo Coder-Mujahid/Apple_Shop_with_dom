@@ -1,4 +1,5 @@
 function btn1() {
+    swal("successfully added!", "The product has been successfully added to your cart !", "success")
     const total_price = document.getElementById('total_price')
     const total_priceparse = parseFloat(total_price.innerText)
 
@@ -27,6 +28,7 @@ function btn1() {
 
 
 function btn2() {
+    swal("successfully added!", "The product has been successfully added to your cart !", "success")
     const total_price = document.getElementById('total_price')
     const total_priceparse = parseFloat(total_price.innerText)
 
@@ -55,6 +57,7 @@ function btn2() {
 
 
 function btn3() {
+    swal("successfully added!", "The product has been successfully added to your cart !", "success")
     const total_price = document.getElementById('total_price')
     const total_priceparse = parseFloat(total_price.innerText)
 
@@ -84,6 +87,7 @@ function btn3() {
 
 
 function btn4() {
+    swal("successfully added!", "The product has been successfully added to your cart !", "success")
     const total_price = document.getElementById('total_price')
     const total_priceparse = parseFloat(total_price.innerText)
 
@@ -108,4 +112,11 @@ function btn4() {
    `
    cartlist.appendChild(li)
    
+}
+
+function alarta(){
+    swal("Order Complete!", "you have successfully purchase !", "success")
+    const cartlist = document.getElementById('list')
+    cartlist.innerHTML = ''
+    
 }
